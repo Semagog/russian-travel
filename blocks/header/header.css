@@ -1,0 +1,6 @@
+.header {
+    width: auto;
+    min-height: 52px;
+    display: flex;
+    background-color:brown;
+}
