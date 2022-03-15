@@ -1,5 +1,4 @@
 .intro__list {
-  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -7,4 +6,22 @@
   color: #ffffff;
   list-style-type: none;
   padding: 0;
+  max-width: 690px;
+  margin: 0 148px 0;
+}
+@media (max-width: 1030px) {
+  .intro__list { 
+    margin: 0 48px 0;
+  }
+}
+
+@media (max-width: 390px) {
+  .intro__list {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    margin: 0 16px 0;
+  }
 }

@@ -1,3 +1,11 @@
-.intro{
-    
+.intro {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+@media (max-width: 1024px) {
+  .intro {
+    width: 100%;
+  }
 }
