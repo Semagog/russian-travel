@@ -1,6 +1,25 @@
 .header {
-    width: auto;
-    min-height: 52px;
-    display: flex;
-    background-color:brown;
+  max-width: 1280px;
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 48px 0;
+  margin-bottom: 56px;
+  margin: auto;
 }
+@media (max-width: 1024px) {
+  .header {
+    margin-bottom: 48px;
+  }
+} 
+ @media (max-width: 768px) {
+  .header {
+    padding: 0 24px 0;
+  }
+}
+@media (max-width: 569px) {
+  .header {
+    padding: 0 16px 0;
+  }
+} 

@@ -1,5 +1,13 @@
 .header__logo {
   display: block;
-  width: 176x;
-  height: 52px;
+  width: 100%;
+  max-width: 176px;
+  padding-top: 28px;
+}
+@media (max-width: 569px) {
+  .header__logo {
+    width: 100%;
+    max-width: 142px;
+    padding-top: 16px;
+  }
 }
