@@ -10,13 +10,15 @@
   margin: 0;
   align-self: flex-start;
 }
+
 @media (max-width: 768px) {
-  .lead__caption  {
+  .lead__caption {
     padding-left: 24px;
   }
 }
+
 @media (max-width: 569px) {
-  .lead__caption  {
+  .lead__caption {
     padding-left: 16px;
   }
 }

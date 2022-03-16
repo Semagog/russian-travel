@@ -9,6 +9,7 @@
   padding: 0 24px 32px;
   margin: 0;
 }
+
 @media (max-width: 569px) {
   .lead__title {
     font-style: normal;

@@ -4,6 +4,7 @@
   max-width: 176px;
   padding-top: 28px;
 }
+
 @media (max-width: 569px) {
   .header__logo {
     width: 100%;

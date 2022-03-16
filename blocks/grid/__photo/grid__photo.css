@@ -1,0 +1,5 @@
+.grid__photo {
+    object-fit: contain;
+    object-position: center;
+    width: 100%;
+}

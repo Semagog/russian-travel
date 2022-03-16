@@ -9,8 +9,9 @@
   max-width: 690px;
   margin: 0 148px 0;
 }
+
 @media (max-width: 1030px) {
-  .intro__list { 
+  .intro__list {
     margin: 0 48px 0;
   }
 }

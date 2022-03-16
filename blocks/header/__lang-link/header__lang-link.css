@@ -5,15 +5,19 @@
   line-height: 28px;
   padding-top: 46px;
 }
+
 .header__lang-link:link {
   text-decoration: none;
 }
+
 .header__lang-link:hover {
   text-decoration: underline;
 }
+
 .header__lang-link:active {
   text-decoration: underline;
 }
+
 @media (max-width: 569px) {
   .header__lang-link {
     font-style: normal;
