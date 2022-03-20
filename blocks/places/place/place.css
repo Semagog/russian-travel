@@ -1,0 +1,36 @@
+.place {
+  margin: 92px 148px 0;
+  display: grid;
+  grid-template-areas:
+    "title url-heading"
+    "image claster";
+  column-gap: 40px;
+  row-gap: 26px;
+  align-content: center;
+}
+
+@media (max-width: 1099px) {
+  .place {
+    margin: 92px 48px 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .place {
+    margin: 88px 24px 0;
+  }
+}
+
+@media (max-width: 450px) {
+  .place {
+    grid-template-areas:
+      "title"
+      "url-heading"
+      "image"
+      "claster";
+    margin: 64px auto;
+    column-gap: 32px;
+    align-content: center;
+    max-width: 320px;
+  }
+}
