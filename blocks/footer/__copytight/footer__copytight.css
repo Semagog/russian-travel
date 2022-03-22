@@ -1,0 +1,15 @@
+.footer__copytight {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  margin: 0;
+}
+
+@media (max-width: 660px) {
+  .footer__copytight {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}

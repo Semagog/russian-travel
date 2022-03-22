@@ -18,9 +18,8 @@
   }
 }
 
- @media (max-width: 450px) {
+@media (max-width: 450px) {
   .place__paragraph {
     margin: 0 16px 0;
   }
-}  
-
+}
