@@ -6,7 +6,7 @@
 }
 @font-face {
    src:url(./InterWeb/Inter-Bold.woff2);
-   src: url(./InterWeb/Inter-Bold.woff2);
+   src: url(./InterWeb/Inter-Bold.woff);
    font-family: Inter;
    font-weight: bold;
 }
