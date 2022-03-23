@@ -18,11 +18,6 @@
 
 @media (max-width: 390px) {
   .intro__list {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-    color: #ffffff;
     margin: 0 16px 0;
   }
 }
